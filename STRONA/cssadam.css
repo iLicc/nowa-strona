@@ -4,7 +4,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f1f1f1;
+    background-image: url(images.png);
+    background-size: cover;
     color: #333;
     display: flex;
     flex-direction: column;
@@ -51,10 +52,11 @@ body {
     text-align: center;
     margin: 0 auto;
     max-width: 450px;
-    background-color: #fff;
     padding: 35px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid black;
+    margin-top: 10px;
   }
   
   form {
