@@ -1,0 +1,95 @@
+/*Do sidebara*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .sidebar ul li {
+    margin-right: 20px;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    transition: 0.3s;
+  }
+  
+  .sidebar ul li a:hover {
+    color: #ff8c00;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+
+/*Do formularza*/
+
+.form-container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 450px;
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 25px;
+  }
+  
+  label {
+    font-size: 18px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid grey;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: black;
+  }
+  
