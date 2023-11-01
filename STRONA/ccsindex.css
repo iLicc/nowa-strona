@@ -7,41 +7,66 @@ body {
     background-image: url(images.png);
     background-size: cover;
     color: #333;
-    display: flex;
     flex-direction: column;
   }
   
-  .sidebar {
+.sidebar {
     background-color: #333;
-    color: #fff;
     padding: 20px;
     display: flex;
-    align-items: center;
     justify-content: center;
   }
   
-  .sidebar ul {
+.sidebar ul {
     list-style: none;
     padding: 0;
     display: flex;
   }
   
-  .sidebar ul li {
-    margin-right: 20px;
+.sidebar ul li {
+    margin-right: 10px;
   }
   
-  .sidebar ul li a {
+.sidebar ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 22px;
-    transition: 0.3s;
   }
   
-  .sidebar ul li a:hover {
+.sidebar ul li a:hover {
     color: #ff8c00;
   }
-  
-  .content {
-    padding: 20px;
-  }
-  
+
+/*Do obrazu i tekstu*/
+
+.cos1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.cos2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.tekst1 {
+  padding: 0;
+  border: 3px solid black;  
+  width: 698px;
+  border-radius: 0 0 10px 10px;
+  font-size: 18px;
+  text-align: center;
+  text-shadow: 2px 2px 3px #333;
+}
+
+.tekst2 {
+  padding: 0;
+  border: 3px solid black;  
+  width: 698px;
+  border-radius: 0 0 10px 10px;
+  font-size: 18px;
+  text-align: center;
+  text-shadow: 2px 2px 3px #333;
+}
