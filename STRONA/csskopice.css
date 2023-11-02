@@ -29,9 +29,8 @@ body {
 
 .sidebar ul li a {
   text-decoration: none;
-  color: #fff;
+  color: white;
   font-size: 22px;
-  transition: 0.3s;
 }
 
 .sidebar ul li a:hover {

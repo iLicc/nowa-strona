@@ -6,8 +6,6 @@ body {
     font-family: Arial, sans-serif;
     background-image: url(images.png);
     background-size: cover;
-    color: #333;
-    flex-direction: column;
   }
   
 .sidebar {
@@ -39,16 +37,47 @@ body {
 
 /*Do obrazu i tekstu*/
 
+
+
+
+
 .cos1 {
+  padding: 5px;
   display: flex;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
+/*Do przycisku*/
+
+.przycisk {
+  padding: 10px;
+  background-color: grey;
+  color: #333;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-size: 27px;
+  font-weight: bold;
+  }
+  
+  .przycisk:hover {
+  background-color: rgb(153, 153, 153);
+  }
+  
+/*Do obrazu i tekstu*/
+
 .cos2 {
+  padding: 5px;
   display: flex;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.obrazek1, .obrazek2{
+  border: 2px solid   grey;
 }
 
 .tekst1 {

@@ -1,0 +1,39 @@
+/*Do sidebara*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(images.png);
+    background-size: cover;
+    color: #333;
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .sidebar ul li {
+    margin-right: 10px;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+  }
+  
+  .sidebar ul li a:hover {
+    color: #ff8c00;
+  }
+  
