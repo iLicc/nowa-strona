@@ -35,22 +35,21 @@ body {
     color: #ff8c00;
   }
 
-/*Do obrazu i tekstu*/
-
-
-
-
+/*Do obrazu */
 
 .cos1 {
-  padding: 5px;
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.obrazek1, .obrazek2 {
+  padding: 10px;
+  border: 2px solid   black;
 }
 
 /*Do przycisku*/
 
-.przycisk {
+.przycisk2 {
   padding: 10px;
   background-color: grey;
   color: #333;
@@ -61,41 +60,38 @@ body {
   text-decoration: none;
   font-size: 27px;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
   }
   
-  .przycisk:hover {
+  .przycisk2:hover {
   background-color: rgb(153, 153, 153);
   }
-  
-/*Do obrazu i tekstu*/
+
+/*Do tekstu*/
 
 .cos2 {
-  padding: 5px;
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
-}
-
-.obrazek1, .obrazek2{
-  border: 2px solid   grey;
+  justify-content: space-around;
 }
 
 .tekst1 {
-  padding: 0;
+  padding: 10px;
   border: 3px solid black;  
   width: 698px;
   border-radius: 0 0 10px 10px;
   font-size: 18px;
   text-align: center;
-  text-shadow: 2px 2px 3px #333;
 }
 
 .tekst2 {
-  padding: 0;
+  padding: 10px;
   border: 3px solid black;  
   width: 698px;
   border-radius: 0 0 10px 10px;
   font-size: 18px;
   text-align: center;
-  text-shadow: 2px 2px 3px #333;
 }
