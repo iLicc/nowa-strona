@@ -58,7 +58,7 @@ body {
 }
 
 .obraz4 {
-    padding: 0;
+    padding: 5px;
     opacity: 0;
     position: relative;
 }
@@ -66,4 +66,22 @@ body {
 .obraz4:hover {
     opacity: 1.0;
     
+}
+
+#cos1 {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border: 2px solid #333;
+  border-radius: 7px;
+  color: white;
+  background-color: grey;
+  text-align: center;
+  font-size: 25px;
+}
+
+button:hover {
+  color:#ff8c00;
 }
