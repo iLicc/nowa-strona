@@ -44,7 +44,11 @@ body {
 
 .obrazek1, .obrazek2 {
   padding: 10px;
-  border: 2px solid   black;
+  border: 3px solid black;
+  border-radius: 15px ;
+  margin-top: 10px;
+  width: 700px;
+  text-align: center;
 }
 
 /*Do przycisku*/
@@ -79,26 +83,33 @@ body {
 }
 
 .tekst1 {
-  padding: 10px;
+  padding: 0;
   border: 3px solid black;  
-  width: 698px;
-  border-radius: 0 0 10px 10px;
+  width: 720px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
   font-size: 18px;
   text-align: center;
 }
 
 .tekst2 {
-  padding: 10px;
+  padding: 0;
   border: 3px solid black;  
-  width: 698px;
-  border-radius: 0 0 10px 10px;
+  width: 720px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
   font-size: 18px;
   text-align: center;
 }
 
+/*Do rensponsywności*/
+
 img {
   max-width: 100%;
   height: auto;
-  display: block; /* Usuwa białe przestrzenie pod obrazem */
-  margin: 0 auto; /* Wyśrodkowuje obraz */
+  display: block;
+  margin: 0 auto; 
+  border-radius: 15px;
 }
