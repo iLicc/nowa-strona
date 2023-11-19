@@ -21,30 +21,39 @@
 
 </body>
 
-    <a href="https://www.centrumrowerowe.pl/czesci/pedaly-rowerowe/?gclid=EAIaIQobChMIhLuh2rm2gQMVMUKRBR2MyAirEAAYASABEgJHm_D_BwE">
+<div class="obraz1">
+    <img id="myImage" onclick="zamiana()" src="pedał.jpg" width="700" height="450">
+</div>
 
-    <div class="obraz2">  
-               
-        <div class="obraz3">
-           
-           <img src="pedał.jpg" width="550px" height="450px" title="Pedał" > </div>
-       
-       <div class="obraz4">
-           
-           <img class="obraz4" src="pedał rowerowy.jpg"  width="550px" height="500px" title="pedał-rowerowy"></div>
-        
-        </div>
-</a>
+<script>
+
+        function zamiana() {
+            var image = document.getElementById("myImage");
+            if (image.src.match("pedał")) {
+                image.src = "pedał.jpg";
+            } else {
+                image.src = "pedał rowerowy.jpg";
+            }
+        }
+
+        function zamianaobrazu() {
+            var image = document.getElementById("myImage");
+            if (image.src.match("pedał rowerowy")) {
+                image.src = "pedał.jpg";
+            } else {
+                image.src = "pedał rowerowy.jpg";
+            }
+        }
+
+</script>
 
 <div id="cos1">
-    <button onclick="pokazPowiadomienie()">Kliknij mnie!</button>
+    <button onclick="zamiana()">Kliknij mnie!</button>
 </div>
 
     <script>
 
-        function pokazPowiadomienie() {
-                alert("Witaj na Stronie z Pedałami :)");
-            }
+                ///alert("Witaj na Stronie z Pedałami :)");
 
     </script>
 

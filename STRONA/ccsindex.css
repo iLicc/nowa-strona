@@ -33,6 +33,7 @@ body {
   
 .sidebar ul li a:hover {
     color: #ff8c00;
+    transition: 0.3s;
   }
 
 /*Do obrazu */
