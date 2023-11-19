@@ -38,55 +38,77 @@ body {
   transition: 0.3s;
 }
 
-  
+/*Przycisk*/
 
-/*Do formularza*/
+.cos2 {
+  display: flex;
+  justify-content: center;
+}
 
-.form-container {
-    text-align: center;
-    margin: 0 auto;
-    max-width: 450px;
-    padding: 35px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-    border: 2px solid black;
-    margin-top: 10px;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  label {
-    font-size: 18px;
-  }
-  
-  input, textarea {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid grey;
-    border-radius: 5px;
-  }
-  
-  button {
-    background-color: black;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  button:hover {
-    color: #ff8c00;
-    background-color: #333;
-  }
-  
+.przycisk2 {
+  padding: 10px;
+  background-color: grey;
+  color: whitesmoke;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-size: 27px;
+  font-weight: bold;
+  width: 175px;
+}
+
+.przycisk2:hover {
+  color: #ff8c00;
+  transition: 0.3s;
+}
+
+/*Do obrazu i tekstu*/
+
+.cos1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+.obraz1 {
+  border: 2px solid black;  
+  border-radius: 15px;
+  text-align: center;
+}
+
+.obraz1:hover {
+  filter: brightness(5);
+  transition: 1s;
+}
+
+.tekst1 {
+  border: 3px solid black;  
+  margin-top: 10px;
+  border-radius: 15px;
+  font-size: 18px;
+  text-align: center;
+  width: 38vw;
+  text-shadow: 1px 1px 4px black;
+  height: 10vw;
+  margin-top: 6vw;
+}
+
+.tekst1:hover {
+  background-color: rgb(199, 199, 199);
+  transition: 0.3s;
+}
+
+/*Rensponswość obrazów*/
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; 
+  border-radius: 15px;
+  border: 2px solid #333;
+}
