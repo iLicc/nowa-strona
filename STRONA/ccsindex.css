@@ -1,40 +1,41 @@
 /*Do sidebara*/
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-image: url(images.png);
-    background-size: cover;
-  }
-  
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url(images.png);
+  background-size: cover;
+}
+
 .sidebar {
-    background-color: #333;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-  }
-  
+  background-color: #333;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
 .sidebar ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-  }
-  
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
 .sidebar ul li {
-    margin-right: 10px;
-  }
-  
+  margin-right: 10px;
+}
+
 .sidebar ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 22px;
-  }
-  
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+}
+
 .sidebar ul li a:hover {
-    color: #ff8c00;
-    transition: 0.3s;
-  }
+  color: #ff8c00;
+  transition: 0.3s;
+}
 
 /*Do obrazu */
 
@@ -52,27 +53,34 @@ body {
   text-align: center;
 }
 
+.obrazek1:hover, .obrazek2:hover {
+  background-color: grey;
+  transition: 0.2s;
+}
+
 /*Do przycisku*/
 
 .przycisk2 {
   padding: 10px;
   background-color: grey;
-  color: #333;
+  color: white;
   border: 2px solid black;
   border-radius: 5px;
   cursor: pointer;
-  text-align: center;
   text-decoration: none;
   font-size: 27px;
   font-weight: bold;
+  width: 15vw;
   display: flex;
   justify-content: center;
-  align-items: center;
-  
+  margin: 0 auto  ;
+  margin-bottom: 0.5vw;
   }
   
   .przycisk2:hover {
   background-color: rgb(153, 153, 153);
+  color: #ff8c00;
+  transition: 0.3s;
   }
 
 /*Do tekstu*/
@@ -83,7 +91,7 @@ body {
   justify-content: space-around;
 }
 
-.tekst1 {
+.tekst1, .tekst2 {
   padding: 0;
   border: 3px solid black;  
   width: 720px;
@@ -94,15 +102,9 @@ body {
   text-align: center;
 }
 
-.tekst2 {
-  padding: 0;
-  border: 3px solid black;  
-  width: 720px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border-radius: 15px;
-  font-size: 18px;
-  text-align: center;
+.tekst1:hover, .tekst2:hover  {
+  background-color: rgb(167, 167, 167);
+  transition: 0.2s;
 }
 
 /*Do rensponsywności*/

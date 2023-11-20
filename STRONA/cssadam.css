@@ -6,13 +6,11 @@ body {
   font-family: Arial, sans-serif;
   background-image: url(images.png);
   background-size: cover;
-  color: #333;
-  flex-direction: column;
 }
 
 .sidebar {
   background-color: #333;
-  padding: 20px;
+  padding: 15px;
   display: flex;
   justify-content: center;
 }
@@ -30,13 +28,15 @@ body {
 .sidebar ul li a {
   text-decoration: none;
   color: #fff;
-  font-size: 22px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .sidebar ul li a:hover {
   color: #ff8c00;
   transition: 0.3s;
 }
+
 
 /*Przycisk*/
 
@@ -60,14 +60,13 @@ body {
 }
 
 .przycisk2:hover {
-  color: #ff8c00;
+  color: #ff8c00; 
   transition: 0.3s;
 }
 
 /*Do obrazu i tekstu*/
 
-.cos1 {
-  display: grid;
+.cos1 { 
   grid-template-columns: auto auto;
   display: flex;
   justify-content: space-around;
@@ -86,20 +85,21 @@ body {
 }
 
 .tekst1 {
+  padding: 5px; 
   border: 3px solid black;  
   margin-top: 10px;
   border-radius: 15px;
   font-size: 18px;
   text-align: center;
-  width: 38vw;
-  text-shadow: 1px 1px 4px black;
-  height: 10vw;
-  margin-top: 6vw;
+  width: 33vw;
+  text-shadow: 2px 1px 4px grey;
+  margin-top: 7.5vw;
+  height: 9vw;
 }
 
 .tekst1:hover {
-  background-color: rgb(199, 199, 199);
-  transition: 0.3s;
+  background-color: rgb(167, 167, 167);
+  transition: 0.2s;
 }
 
 /*Rensponswość obrazów*/
