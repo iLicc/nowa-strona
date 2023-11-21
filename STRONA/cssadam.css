@@ -1,4 +1,4 @@
-/*Do sidebara*/
+/*Do sidebara i stopki*/
 
 body {
   margin: 0;
@@ -37,6 +37,16 @@ body {
   transition: 0.3s;
 }
 
+#stopka {
+  margin-top: 329px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  }
 
 /*Przycisk*/
 
