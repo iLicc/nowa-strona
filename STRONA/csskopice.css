@@ -37,16 +37,15 @@ body {
   transition: 0.3s;
 }
 
-#stopka {
-  margin-top: 105px;
-}
-
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background-color: #333;
   color: #fff;
   text-align: center;
   padding: 10px;
-  }
+}
 
 /*Rensponswość obrazów*/
 
@@ -90,6 +89,10 @@ img {
   text-align: center;
   width: 38vw;
   text-shadow: 2px 1px 4px grey;
+}
+
+.tekst5 {
+  margin-bottom: 75pX;
 }
 
 .tekst1:hover, .tekst2:hover, .tekst3:hover, .tekst4:hover, .tekst5:hover {
