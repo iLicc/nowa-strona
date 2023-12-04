@@ -4,8 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-image: url(images.png);
-  background-size: cover;
+  background-color: whitesmoke;
 }
 
 .sidebar {
@@ -76,9 +75,9 @@ footer {
 /*Do obrazu i tekstu*/
 
 .cos1 { 
-  grid-template-columns: auto auto;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding: 25px;
 }
 
@@ -100,10 +99,9 @@ footer {
   border-radius: 15px;
   font-size: 18px;
   text-align: center;
-  width: 33vw;
+  width: 38vw;
   text-shadow: 2px 1px 4px grey;
-  margin-top: 7.5vw;
-  height: 9vw;
+  height: 20%;
 }
 
 .tekst1:hover {
@@ -120,4 +118,28 @@ img {
   margin: 0 auto; 
   border-radius: 15px;
   border: 2px solid #333;
+}
+
+/*Przycisk od koloru i form*/
+
+.button {
+  padding: 5px;
+  background-color: grey;
+  color: whitesmoke;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.button:hover {
+  color: #ff8c00;
+  transition: 0.3s;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

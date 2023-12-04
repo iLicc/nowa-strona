@@ -20,6 +20,8 @@
           </ul>
         </div>
 
+
+
 </body>
 
 <div class="cos1">
@@ -34,6 +36,32 @@
     </div>
   </div>
 </div>
+
+
+<form>
+  <input type="color" id="kolor">
+  <input type="range" id="rozmiar" min="1" max="35" onchange="podajrozmiar()">
+  <span id="rangerozmiar"></span>
+  <input type="button" class="button" onclick="zmienkolor()" value="Ustaw kolor">
+  
+</form>
+  
+<script>
+
+  function zmienkolor(){
+    let kolor=document.querySelector("#kolor").value;
+    document.querySelector("body").style.backgroundColor=kolor;
+    let rozmiar=document.querySelector("#rozmiar").value;
+    document.querySelector("p").style.fontSize = rozmiar +"px";
+  }
+
+  function podajrozmiar(){
+    let rozmiar=document.querySelector("#rozmiar").value;
+    document.querySelector("#rangerozmiar").textContent=rozmiar;
+  }
+
+</script>
+
 
 <footer>
   <p>&copy; 2023 Your Website</p>

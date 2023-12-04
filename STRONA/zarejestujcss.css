@@ -54,13 +54,14 @@ body {
       text-align: center;
       margin: 0 auto;
       max-width: 450px;
-      padding: 35px;
+      padding: 25px;
       border-radius: 10px;
       box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
       border: 2px solid black;
       margin-top: 10px;
       display: flex;
       align-items: center;
+      font-size: 16px;
     }
     
     form {
@@ -68,9 +69,10 @@ body {
       flex-direction: column;
       
     }
-    
+
     .form-group {
       margin-bottom: 20px;
+      margin-left: 75px;
     }
     
     label {
@@ -85,7 +87,7 @@ body {
       border-radius: 5px;
     }
     
-    button {
+    .button {
       background-color: black;
       color: white;
       border: none;
@@ -93,10 +95,12 @@ body {
       font-size: 16px;
       border-radius: 5px;
       cursor: pointer;
-      transition: background-color 0.3s;
+      text-decoration: none;
+      background-color 0.3s;
     }
     
-    button:hover {
-      color: #ff8c00;
+    .button:hover {
+      color: #ff8c00; 
+      transition: 0.3s;
       background-color: #333;
     }
