@@ -1,0 +1,27 @@
+<div id="obraz1">
+   <img id="salitra" src="pedał.jpg" width="700" height="400">
+</div>
+
+<script>
+    
+    function zmiana1(){
+        document.getElementById("salitra").src="pedałrowerowy.jpg";
+    }
+    function zmiana2(){
+        document.getElementById("salitra").src="pedał.jpg";
+    }
+    function zmiana() {
+        let test=document.getElementById("salitra");
+        if(test.src="pedał.jpg"){
+            alert("prwadea");
+        }
+        if(test.src="pedałrowerowy.jpg"){
+            alert("prwadea222");
+        }
+    }
+
+</script>
+
+<div id="cos1">
+    <button onclick="zmiana()">Kliknij mnie!</button>
+</div>

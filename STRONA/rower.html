@@ -21,41 +21,15 @@
 
 </body>
 
-<div class="obraz1">
-    <img id="myImage" onclick="zamiana()" src="pedał.jpg" width="700" height="450">
+<div id="obraz1">
+   
 </div>
 
-<script>
+<img id="image" src="pedał.jpg">
+<button onclick="document.getElementById('image').src='pedał.jpg'">Zmien zdjecie</button>     
+<button onclick="document.getElementById('image').src='pedałrowerowy.jpg'">Zmien zdjecie</button>
 
-        function zamiana() {
-            var image = document.getElementById("myImage");
-            if (image.src.match("pedał")) {
-                image.src = "pedał.jpg";
-            } else {
-                image.src = "pedał rowerowy.jpg";
-            }
-        }
 
-        function zamianaobrazu() {
-            var image = document.getElementById("myImage");
-            if (image.src.match("pedał rowerowy")) {
-                image.src = "pedał.jpg";
-            } else {
-                image.src = "pedał rowerowy.jpg";
-            }
-        }
-
-</script>
-
-<div id="cos1">
-    <button onclick="zamiana()">Kliknij mnie!</button>
-</div>
-
-    <script>   
-
-        alert("Witaj na Stronie z Pedałami :)");
-
-    </script>
 
 <footer>
     <p>&copy; 2023 Your Website</p>

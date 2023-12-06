@@ -90,6 +90,8 @@ button {
   background-color: grey;
   text-align: center;
   font-size: 25px;
+  display: flex;
+  justify-content: center;
 
 }
 
@@ -100,7 +102,7 @@ button:hover {
 
 /*Do pedała*/
 
-.obraz1 {
+#obraz1 {
   text-align: center;
 }
 
