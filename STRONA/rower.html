@@ -19,20 +19,33 @@
           </ul>
         </div>
 
+
+      <footer>
+          <p>&copy; 2023 Your Website</p>
+      </footer>
+
 </body>
 
-<div id="obraz1">
-   
-</div>
 
-<img id="image" src="pedał.jpg">
-<button onclick="document.getElementById('image').src='pedał.jpg'">Zmien zdjecie</button>     
-<button onclick="document.getElementById('image').src='pedałrowerowy.jpg'">Zmien zdjecie</button>
+  <script>
+
+    function zmien1(){
+      const element = document.getElementById("DIV");
+      element.classList.remove("pierwsza");
+      element.classList.add("druga");
+    }
+
+    function zmien2(){
+      const element = document.getElementById("DIV");
+      element.classList.remove("druga");
+      element.classList.add("pierwsza");
+    }
+    
+    
+    </script>
+
+<div id="DIV" class="pierwsza" onmouseover="zmien1()" onmouseout="zmien2()">
 
 
-
-<footer>
-    <p>&copy; 2023 Your Website</p>
-</footer>
 
 </html>
